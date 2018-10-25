@@ -1,0 +1,6 @@
+IOPREVIEW,account
+EC2,100
+EBS,200
+S3,30
+RDS,5
+Redshift,5

@@ -1,0 +1,22 @@
+=====================
+To read row count
+=====================
+
+>>> with open('C:/Users/kwfp376/Documents/Temp/Webpage/Iopreview.csv') as csv_file:
+...     reader = csv.reader(csv_file)
+...     value = len(list(reader))
+...     print (value)
+...
+6
+
+======================
+To read column count
+======================
+
+>>> with open('C:/Users/kwfp376/Documents/Temp/Webpage/Iopreview.csv') as csv_file:
+...     reader = csv.reader(csv_file, delimiter=',')
+...     for linenum, line in enumerate(reader):
+...             if linenum == 0:
+...                     print (len(line))
+...
+2
