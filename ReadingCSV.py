@@ -7,7 +7,7 @@ with open('C:/Users/kwfp376/Documents/Temp/Webpage/Iopreview.csv') as csv_file:
 	for row in reader:
 		print (line_count)
 		if line_count == 0:
-			#print(', '.join(row))
+			
 			Account = row[1]
 		elif line_count == 1:
 			EC2_count = row[1]
@@ -21,8 +21,10 @@ with open('C:/Users/kwfp376/Documents/Temp/Webpage/Iopreview.csv') as csv_file:
 			Redshift_count = row[1]
 		
 		
-		
 		line_count +=1
+		
+		
+		
 
 #Name = "Babu"		
 html_file_path = "C:/Users/kwfp376/Documents/Temp/Webpage/Inventory.html"		

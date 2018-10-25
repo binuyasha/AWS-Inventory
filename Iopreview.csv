@@ -1,6 +1,7 @@
-IOPREVIEW,account
-EC2,100
-EBS,200
-S3,30
-RDS,5
-Redshift,5
+IOPREVIEW,account,Status,Test
+EC2,100,Yes,1
+EBS,200,No,2
+S3,30,No,3
+RDS,5,Yes,4
+Redshift,5,Yes,5
+Volumes,6,Yes,20
