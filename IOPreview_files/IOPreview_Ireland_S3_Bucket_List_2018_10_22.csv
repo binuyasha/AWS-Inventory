@@ -1,0 +1,132 @@
+,,,,,
+iopreview S3 BUCKET LIST
+BucketName,Region,Environment,Cost Center,Other_Tags 
+aws-athena-query-results-008381431361-eu-west-1,eu-west-1,N/A,N/A,N/A 
+aws-athena-query-results-008381431361-us-east-1,us-east-1,N/A,N/A,N/A 
+aws-az-io-storageclass-poc,us-east-1,N/A,N/A,N/A 
+aws-bkp01,ap-southeast-2,N/A,N/A,N/A 
+aws-iopreview-test,us-east-1,N/A,N/A,N/A 
+aws-jenkis,us-east-2,N/A,N/A,N/A 
+aws-logs-008381431361-us-east-1,us-east-1,N/A,N/A,N/A 
+awsmini-summit-photos,eu-west-1,N/A,N/A,N/A 
+az-aws-config,ap-southeast-1,N/A,N/A,N/A 
+az-aws-config-iopreview,ap-southeast-1,N/A,N/A,N/A 
+az-aws-inventory,ap-south-1,N/A,N/A,N/A 
+az-aws-rman-backup,us-east-1,N/A,N/A,N/A 
+az-billz,us-east-1,N/A,N/A,N/A 
+az-enterprise-data-hub-dev-us,us-east-1,N/A,N/A,N/A 
+az-eu-commercial-spectrum-1,eu-west-1,N/A,N/A,N/A 
+az-eu-commercial-spectrum-2,eu-west-1,N/A,N/A,N/A 
+az-eu-commercial-veeva-archive-test,eu-west-1,N/A,N/A,N/A 
+az-eu-io-agereport-accesskey,eu-west-1,N/A,N/A,N/A 
+az-eu-io-cloudtraillog-morp,eu-west-1,N/A,N/A,N/A 
+az-eu-io-ebssnapshot-info,eu-west-1,N/A,N/A,N/A 
+az-eu-io-vmimport,eu-west-1,N/A,N/A,N/A 
+az-eu-opt-bucket,eu-west-1,N/A,N/A,N/A 
+az-eu-promo-matsdev,eu-west-1,N/A,N/A,N/A 
+az-eu-promo-matsdev-stage,eu-west-1,N/A,N/A,N/A 
+az-eu-rdi-etmf-test-external,eu-west-1,N/A,N/A,N/A 
+az-eu-rdi-etmf-test-internal,eu-west-1,N/A,N/A,N/A 
+az-eu-task-s3select,eu-west-1,N/A,N/A,N/A 
+az-firehouse-abh,us-west-2,N/A,N/A,N/A 
+az-iopreview-cloud-trial-testing,us-east-1,N/A,N/A,N/A 
+az-newec2-notification,eu-west-1,N/A,N/A,N/A 
+az-poc-coe-versoning,eu-west-1,N/A,N/A,N/A 
+az-poc-coe-versoning-us,us-east-1,N/A,N/A,N/A 
+az-s3-filegw-poc,us-east-1,N/A,N/A,N/A 
+az-sg-inventory-dynamodb,ap-southeast-1,N/A,N/A,N/A 
+az-temp-copy,eu-west-1,N/A,N/A,N/A 
+az-us-commercial-o2-archive-temp-dev,us-east-1,Dev,587111,N/ACreation Date:20180422 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-archive-dev ;  
+az-us-commercial-o2-athena-poc-dev,us-east-1,Dev,587111,N/ACreation Date:20180420 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-datalake-dev ;  
+az-us-commercial-o2-code-temp-dev,us-east-1,Dev,587111,N/ACreation Date:20180522 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-code-dev ;  
+az-us-commercial-o2-code-temp-test,us-east-1,Test,587111,N/ACreation Date:20180522 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2TEST01 ; Name:az-us-commercial-o2-code-test ;  
+az-us-commercial-o2-datalake-temp-dev,us-east-1,Dev,587111,N/ACreation Date:20180420 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-datalake-dev ;  
+az-us-commercial-o2-datalake-temp-test,us-east-1,Test,587111,N/ACreation Date:20180817 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2TEST01 ; Name:az-us-commercial-o2-datalake-temp-test ;  
+az-us-commercial-o2-ims-temp-dev,us-east-1,N/A,N/A,N/A 
+az-us-commercial-o2-ims-temp-test,us-east-1,Test,587111,N/ACreation Date:20180522 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2TEST01 ; Name:az-us-commercial-o2-datalake-test ;  
+az-us-commercial-o2-inbound-temp-dev,us-east-1,Dev,587111,N/ACreation Date:20180422 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-inbound-dev ;  
+az-us-commercial-o2-inbound-temp-test,us-east-1,Test,587111,N/ACreation Date:20180522 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2TEST01 ; Name:az-us-commercial-o2-inbound-test ;  
+az-us-commercial-o2-logs-temp-dev,us-east-1,Dev,587111,N/ACreation Date:20180828 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-logs-temp-dev ;  
+az-us-commercial-o2-migration-dev,us-east-1,N/A,N/A,N/A 
+az-us-commercial-o2-publish-dev-temp,us-east-1,N/A,N/A,N/A 
+az-us-commercial-o2-publish-temp-dev,us-east-1,Dev,587111,N/ACreation Date:20180422 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-publish-dev ;  
+az-us-commercial-o2-publish-temp-test,us-east-1,Test,587111,N/ACreation Date:20180817 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2TEST01 ; Name:az-us-commercial-o2-publish-temp-test ;  
+az-us-commercial-o2-publish-test-temp,us-east-1,N/A,N/A,N/A 
+az-us-commercial-o2-sandbox-temp-test,us-east-1,N/A,N/A,N/A 
+az-us-commercial-o2-shs-temp-dev,us-east-1,Dev,587111,N/ACreation Date:20180422 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-inbound-dev ;  
+az-us-commercial-o2-shs-temp-test,us-east-1,Test,587111,N/ACreation Date:20180522 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2TEST01 ; Name:az-us-commercial-o2-datalake-test ;  
+az-us-commercial-o2-temp-dev,us-east-1,N/A,N/A,N/A 
+az-us-commercial-o2-temp-prod,us-east-1,Dev,587111,N/ACreation Date:20180422 ; IDMD No:IDMD0005137 ; Organization:Commercial ; OS:S3 ; Hostname:USCVLO2DEV01 ; Name:az-us-commercial-o2-archive-dev ;  
+az-us-commercial-testnfs,us-east-1,N/A,POC-Paul Kuntz,N/A 
+az-us-demo-csis,us-east-1,N/A,N/A,N/A 
+az-us-fe-access-logs,us-east-1,N/A,N/A,N/A 
+az-us-fe-services-configuration-dev,us-east-1,N/A,N/A,N/A 
+az-us-fe-services-configuration-prod,us-east-1,N/A,N/A,N/A 
+az-us-fe-services-configuration-stage,us-east-1,N/A,N/A,N/A 
+az-us-fe-services-configuration-uat,us-east-1,N/A,N/A,N/A 
+az-us-io-ec2-ssm,us-east-1,N/A,N/A,N/A 
+az-us-io-vmimport,us-east-1,N/A,N/A,N/A 
+az-us-iopreview-azconnect,us-east-1,Dev,6807,N/AOrganization:CSIS ; Name:az-us-iopreview-azconnect ;  
+az-us-iopreview-csis-bucket-ardea,us-east-1,N/A,N/A,N/AIDMD:IDMD0004503 ; Project:ardea ; Name:az-us-iopreview-csis-bucket-ardea ;  
+az-us-iopreview-ecs-s3-ebitest,us-east-1,N/A,N/A,N/A 
+az-us-iopreview-ecs-s3-test,us-east-1,Test,6847,N/A 
+az-us-iopreview-netscaler-test,us-east-1,N/A,N/A,N/A 
+az-us-iopreview-opsautomator-configuration-10vto56cgwqld,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-name:az-us-iopreview-opsautomator ; aws:cloudformation:logical-id:Configuration ; aws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/az-us-iopreview-opsautomator/f24624d0-5de4-11e8-a0a7-50fa5f2588d2 ; Name:OpsAutomatorTaskList ;  
+az-us-iopreview-opsautomator-taskresources-w4sqql61sk9f,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-name:az-us-iopreview-opsautomator ; aws:cloudformation:logical-id:TaskResources ; aws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/az-us-iopreview-opsautomator/f24624d0-5de4-11e8-a0a7-50fa5f2588d2 ; Name:OpsAutomatorTaskList ;  
+az-us-lg-athena,us-east-1,N/A,N/A,N/A 
+az-us-lg-pilot-base-iop,us-east-1,N/A,614262,N/A 
+az-us-lg-pilot-config-iop,us-east-1,N/A,614262,N/A 
+az-us-lg-pilot-event-iop1,us-east-1,Production,614262,N/ACreation Date:07/02/2018 ; aws:cloudformation:stack-name:test1 ; IDMD No:IDMD0005552 ; Organization:Commercial ; aws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/test1/cd4865f0-7e44-11e8-9a2d-500c5242948e ; aws:cloudformation:logical-id:TriggerBucket ; Name:az-us-lg-pilot-event ;  
+az-us-lg-pilot-log,us-east-1,N/A,N/A,N/A 
+az-us-lg-pilot-logs-iop,us-east-1,N/A,614262,N/A 
+az-us-lg-pilot-stage-iop,us-east-1,N/A,614262,N/A 
+az-us-lg-pilot-user-iop,us-east-1,N/A,N/A,N/A 
+az-us-poc-test-demo,us-east-1,N/A,N/A,N/A 
+az-us-prev-s3-test,us-east-1,dev,N/A,N/Aname:az-us-prev-s3-test ; cost center:6807 ;  
+az-us-s3testkms,us-east-1,N/A,N/A,N/A 
+azglacierpoc,ap-south-1,N/A,N/A,N/A 
+aziopreviewlogs,us-east-1,N/A,N/A,N/A 
+aztest7,us-east-1,N/A,N/A,N/A 
+cf-templates-bfoh2nf44h3x-eu-west-1,eu-west-1,N/A,N/A,N/A 
+cf-templates-bfoh2nf44h3x-us-east-1,us-east-1,N/A,N/A,N/A 
+cf-templates-bfoh2nf44h3x-us-east-2,us-east-2,N/A,N/A,N/A 
+cf-templates-bfoh2nf44h3x-us-west-1,us-west-1,N/A,N/A,N/A 
+cf-templates-bfoh2nf44h3x-us-west-2,us-west-2,N/A,N/A,N/A 
+cloudformationready,us-east-1,N/A,N/A,N/A 
+cloudformations1,us-east-1,N/A,N/A,N/A 
+cloudtrail-splunk-poc092018,eu-west-1,N/A,N/A,N/A 
+codepipeline-us-east-1-261896666791,us-east-1,N/A,N/A,N/A 
+codepipeline-us-east-2-858630470595,us-east-2,N/A,N/A,N/A 
+config-bucket-008381431361,eu-west-1,N/A,N/A,N/A 
+dms-008381431361-crer2bcbkqf7,us-east-1,N/A,N/A,N/A 
+ecs-commvault,us-east-1,N/A,N/A,N/A 
+ekk-records,us-east-1,N/A,N/A,N/A 
+elasticbeanstalk-ap-south-1-008381431361,ap-south-1,N/A,N/A,N/A 
+elasticbeanstalk-ap-southeast-1-008381431361,ap-southeast-1,N/A,N/A,N/A 
+elasticbeanstalk-eu-west-1-008381431361,eu-west-1,N/A,N/A,N/A 
+elasticbeanstalk-us-east-1-008381431361,us-east-1,N/A,N/A,N/A 
+elasticbeanstalk-us-east-2-008381431361,us-east-2,N/A,N/A,N/A 
+elasticbeanstalk-us-west-2-008381431361,us-west-2,N/A,N/A,N/A 
+fe-terraform-configuration,us-east-1,Prod,,N/ACreation Date:07-06-2018 ; Project:FieldExp ; Description:Bucket to hold configuration files for Field Experience application deployment ; IDMD No: ; Organization:Commercial IT ; Name: ;  
+hellotests,us-east-1,N/A,N/A,N/A 
+indice1,us-east-1,N/A,N/A,N/A 
+iodevbucket,us-east-1,N/A,N/A,N/A 
+iopreview-az-us-east-1,us-east-1,N/A,N/A,N/A 
+iopreviewtrails,us-east-1,N/A,N/A,N/A 
+mw-test-for-deployment,us-east-2,N/A,N/A,N/A 
+navautomator-configuration-sek4oolhls36,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/NavAutomator/639e79e0-117b-11e8-9696-500c28903236 ; aws:cloudformation:stack-name:NavAutomator ; aws:cloudformation:logical-id:Configuration ;  
+navautomator-taskresources-xhmie1d7zsmx,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/NavAutomator/639e79e0-117b-11e8-9696-500c28903236 ; aws:cloudformation:stack-name:NavAutomator ; aws:cloudformation:logical-id:TaskResources ;  
+nfss3,us-east-1,N/A,N/A,N/A 
+opsautomator-configuration-1m2ojl5mtlune,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/OpsAutomator/39d2b2e0-0030-11e8-9fa0-50fae98974fd ; aws:cloudformation:stack-name:OpsAutomator ; aws:cloudformation:logical-id:Configuration ;  
+opsautomator-configuration-1mjphv53t31k0,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-name:OpsAutomator ; aws:cloudformation:logical-id:Configuration ; aws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/OpsAutomator/72763480-0744-11e8-bb66-503acac41efd ; Name:OpsAutomator ;  
+opsautomator-taskresources-1fycca66sp7k,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-name:OpsAutomator ; aws:cloudformation:logical-id:TaskResources ; aws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/OpsAutomator/72763480-0744-11e8-bb66-503acac41efd ; Name:OpsAutomator ;  
+opsautomator-taskresources-oezumr38g8eu,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/OpsAutomator/39d2b2e0-0030-11e8-9fa0-50fae98974fd ; aws:cloudformation:stack-name:OpsAutomator ; aws:cloudformation:logical-id:TaskResources ;  
+pre-reqs-artifactbucket-l34oyj4zqtal,us-east-1,N/A,N/A,N/Aaws:cloudformation:stack-id:arn:aws:cloudformation:us-east-1:008381431361:stack/pre-reqs/c73356e0-8c12-11e7-8163-50fae9826c35 ; aws:cloudformation:stack-name:pre-reqs ; aws:cloudformation:logical-id:ArtifactBucket ;  
+s3-bucket-access-control,eu-west-1,N/A,N/A,N/A 
+sandboxesconfigs,us-east-1,N/A,N/A,N/A 
+sandoboxes,us-east-1,N/A,N/A,N/A 
+sms-b-us-east-1-7nzzvj3ide4kbel5sasdeclzcfjtbnq2,us-east-1,N/A,N/A,N/A 
+spinnakergis,eu-west-1,N/A,N/A,N/A 
+versioningandlifecycle,us-east-1,N/A,N/A,N/A 
+z-us-commercial-o2-sandbox-temp-test,us-east-1,N/A,N/A,N/A 
+zerto-032bdf2b-ebcd-4cff-b816-1fd56e755655,us-east-1,N/A,N/A,N/A 

@@ -1,0 +1,6 @@
+,,,
+RDS INSTANCE,REGION :eu-west-1
+DBInstanceIdentifier,DBInstanceStatus,DBName,DBInstanceClass,Cost Center,Creation Date,IDMD No,Organization,Environment,Database Platform,Multi AZ Deployment
+aurorakt,available,AuroraKT,db.t2.small,NA,NA,NA,NA,NA,aurora,False
+aurorakt-eu-west-1c,available,AuroraKT,db.t2.small,NA,NA,NA,NA,NA,aurora,False
+smartinstance1,available,smarttrackdb1,db.t2.small,6807,NA,NA,CSIS,Dev,postgres,False

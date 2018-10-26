@@ -1,0 +1,36 @@
+SnapshotId,VolumeId,StartTime,VolumeSize,Description,,,,
+snap-e5489e83,vol-0dbe1298009afe86b,2017-03-15 13:51:41+00:00,50,Created by CreateImage(i-0c7b0c67977bad89f) for ami-9ca99efa from vol-0dbe1298009afe86b,,,,
+snap-305a9902,vol-0de12affa23ae1a73,2017-03-15 13:51:41+00:00,100,Created by CreateImage(i-0c7b0c67977bad89f) for ami-9ca99efa from vol-0de12affa23ae1a73,,,,
+snap-08bdb20eb5b9fe96c,vol-09fc381caa8aeb61f,2017-03-20 10:52:05+00:00,10,Created by CreateImage(i-0a81b1696f52e44ea) for ami-ae5666c8 from vol-09fc381caa8aeb61f,,,,
+snap-05395df3609832ce2,vol-ffffffff,2017-03-20 09:43:56+00:00,10,Copied for DestinationAmi ami-3a51615c from SourceAmi ami-f9aa00ef for SourceSnapshot snap-095a7e191da6cc55d. Task created on 1,490,3,32,578
+snap-05e9eaa089169504a,vol-0fd3fd1e1234cbabb,2017-03-15 14:51:02+00:00,100,Created by CreateImage(i-01a41f1dd8a62e9d2) for ami-bd91a6db from vol-0fd3fd1e1234cbabb,,,,
+snap-0966d418301bc1db1,vol-0611053d4a000e771,2017-03-15 14:51:02+00:00,50,Created by CreateImage(i-01a41f1dd8a62e9d2) for ami-bd91a6db from vol-0611053d4a000e771,,,,
+snap-08afc2c9882a000c1,vol-0de12affa23ae1a73,2017-03-15 11:50:38+00:00,100,Created by CreateImage(i-0c7b0c67977bad89f) for ami-aca394ca from vol-0de12affa23ae1a73,,,,
+snap-06471b5e080fe17f7,vol-0dbe1298009afe86b,2017-03-15 11:50:38+00:00,50,Created by CreateImage(i-0c7b0c67977bad89f) for ami-aca394ca from vol-0dbe1298009afe86b,,,,
+snap-0d2f8f235e511fa4b,vol-0de12affa23ae1a73,2017-03-15 11:30:52+00:00,100,Created by CreateImage(i-0c7b0c67977bad89f) for ami-61b88f07 from vol-0de12affa23ae1a73,,,,
+snap-0eb40adc24aa5cd5d,vol-03fc6779b4315771b,2017-02-24 15:05:12+00:00,30,Created by CreateImage(i-09c40324cd1dfb51b) for ami-d03e12b6 from vol-03fc6779b4315771b,,,,
+snap-0096c3dc24c5c0c7c,vol-0e1f3e9078453d654,2017-02-24 15:05:54+00:00,30,Created by CreateImage(i-050ae827a6444509c) for ami-783a161e from vol-0e1f3e9078453d654,,,,
+snap-05a62d4a8dc9378b0,vol-ffffffff,2017-08-31 06:54:24+00:00,8,Copied for DestinationAmi ami-1ced1765 from SourceAmi ami-2c2f2757 for SourceSnapshot snap-0be27a079d2a6cb50. Task created on 1,504,162,459,604
+snap-043d1a04746755e4b,vol-ffffffff,2017-08-31 04:50:38+00:00,8,Copied for DestinationAmi ami-75e8120c from SourceAmi ami-b57a72ce for SourceSnapshot snap-0a9222be2edb4bf22. Task created on 1,504,155,32,111
+snap-003c6028216a552b3,vol-0c9799ac266f8dca8,2017-08-02 11:20:19+00:00,100,Created by CreateImage(i-0493aa209ebd32016) for ami-5cf40025 from vol-0c9799ac266f8dca8,,,,
+snap-003f195b847f8a26e,vol-050242b96d41cdd38,2017-08-02 11:20:19+00:00,10,Created by CreateImage(i-0493aa209ebd32016) for ami-5cf40025 from vol-050242b96d41cdd38,,,,
+snap-05e54e137286640b5,vol-ffffffff,2017-07-17 17:29:50+00:00,35,Created by AWS-VMImport service for import-ami-fh2880x1,,,,
+snap-0ad6232ef9d414dc7,vol-ffffffff,2017-07-14 21:45:38+00:00,35,Created by AWS-VMImport service for import-ami-fgroidkk,,,,
+snap-091288d832292ebdd,vol-ffffffff,2017-06-05 19:10:30+00:00,100,Copied for DestinationAmi ami-84ebf8e2 from SourceAmi ami-28ffaf3e for SourceSnapshot snap-300c85af. Task created on 1,496,689,815,474
+snap-02eb7362f6ad5632e,vol-0f4aa79094fa0aaf9,2017-05-25 10:49:07+00:00,33,Created by CreateImage(i-09fea5438d31da222) for ami-6e9c8808 from vol-0f4aa79094fa0aaf9,,,,
+snap-0bac7dbf5291ebc8f,vol-0fb8a6fbd18eb1edf,2017-05-18 09:17:34+00:00,10,TestSnap1,,,,
+snap-0b55e21d21b042911,vol-03fc6779b4315771b,2017-05-04 08:56:15+00:00,30,Created by CreateImage(i-09c40324cd1dfb51b) for ami-1debe67b from vol-03fc6779b4315771b,,,,
+snap-05af2dd1a9eb373ac,vol-026ef1dfd3e9ea11d,2017-05-03 16:07:03+00:00,8,Created by CreateImage(i-01c44b7a36102e423) for ami-df1d10b9 from vol-026ef1dfd3e9ea11d,,,,
+snap-05f1278ca9aedb2fc,vol-0e1f3e9078453d654,2017-04-05 14:05:42+00:00,30,Created by CreateImage(i-050ae827a6444509c) for ami-4894ad2e from vol-0e1f3e9078453d654,,,,
+snap-0587b4cf3d02fd995,vol-0e1f3e9078453d654,2017-04-04 14:40:56+00:00,30,Created by CreateImage(i-050ae827a6444509c) for ami-c7f9c0a1 from vol-0e1f3e9078453d654,,,,
+snap-0d30f6f053b32fe58,vol-ffffffff,2018-09-11 01:38:31+00:00,100,Copied for DestinationAmi ami-08680bd1dc2464778 from SourceAmi ami-0a9d3d3f4c580ab22 for SourceSnapshot snap-0dd756f1a8e9eb592. Task created on 1,536,629,908,353
+snap-0914180f00c3795e1,vol-ffffffff,2018-09-11 01:39:37+00:00,50,Copied for DestinationAmi ami-07bedbfed4e255cd4 from SourceAmi ami-03d46f82124c9db87 for SourceSnapshot snap-0de0bed8db542ed9b. Task created on 1,536,629,974,387
+snap-00514b94f1bd28210,vol-0a59cae316003ba2e,2018-08-10 18:02:57+00:00,20,Created by CreateImage(i-02025b074749f39de) for ami-02c7227b8cc3d7419 from vol-0a59cae316003ba2e,,,,
+snap-01dd0f04748271a83,vol-026d90e3660f5b9ac,2018-08-02 21:31:02+00:00,6,Created by CreateImage(i-08a12af1c3ed5166a) for ami-041ad6a28b1ab75fe from vol-026d90e3660f5b9ac,,,,
+snap-0ae188d3f3b15c9c1,vol-015d56105f1977257,2018-08-02 21:31:02+00:00,40,Created by CreateImage(i-08a12af1c3ed5166a) for ami-041ad6a28b1ab75fe from vol-015d56105f1977257,,,,
+snap-0abbc2e34ce1c3342,vol-03d85faa85252b077,2018-08-02 19:45:12+00:00,6,Created by CreateImage(i-0fe89e41f7641d239) for ami-0c3f5f01e2be4047e from vol-03d85faa85252b077,,,,
+snap-02819c24b434ba539,vol-07b06b88481e069a3,2018-08-02 19:45:12+00:00,40,Created by CreateImage(i-0fe89e41f7641d239) for ami-0c3f5f01e2be4047e from vol-07b06b88481e069a3,,,,
+snap-0098d0c8f892c7a8f,vol-0ec44abecbaa42bc2,2018-07-09 21:53:04+00:00,20,Created by CreateImage(i-06c08d2ea65ac8fba) for ami-01ac238c4b8b9c2f8 from vol-0ec44abecbaa42bc2,,,,
+snap-01f8902957e1b070a,vol-0cb850e5c9ce1782f,2018-07-09 19:56:52+00:00,8,Created by CreateImage(i-0580fa70740fd2eed) for ami-0c40be9a833e7fdcc from vol-0cb850e5c9ce1782f,,,,
+snap-06d6c390507611029,vol-03681a9e78bf268f7,2018-05-21 12:01:32+00:00,8,Created by CreateImage(i-08889e07168eec57e) for ami-09b982ca116fab9ff from vol-03681a9e78bf268f7,,,,
+snap-0bbecf35a904b085e,vol-07d6e6f4be9355b09,2018-05-16 05:19:18+00:00,30,Created by CreateImage(i-0e06fd3c4dc3b1835) for ami-03229196edbec408b from vol-07d6e6f4be9355b09,,,,

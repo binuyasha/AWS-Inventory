@@ -1,0 +1,78 @@
+InstanceId,Hostname,InstanceState,InstanceIP,InstanceType,InstanceAvailabilityZone,InstanceSecurityGroup,CostCenter,Instancename,CreateDate,IDM,OSPlatform,Organization,Environment,PTSchedule 
+i-069441703514452a1,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.75.1,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-w02,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-0014c6e05f5c5d759,AZ-EU-ioprev-ec2-paas-test-k8s-r02,stopped,10.80.71.103,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-test-k8s-r02,27/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-083584b7d862c9e31,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.73.158,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-w04,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-0ab476403bc2a32d9,AZ-EU-ioprev-ec2-paas-k8s-test2-r01,stopped,10.80.71.17,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test2-r01,11/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-03d0226b401d078a5,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.72.216,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w02,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-00195835b67d5a898,AZ-EU-ioprev-ec2-paas-k8s-test2-lb01,stopped,10.80.69.199,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s-nginx-public; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test2-lb01,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-016bed44bb99f967c,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.75.41,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w05,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0649641af4f8a4b52,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.71.156,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-lb1,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0f3f152970d7eed68,IECDALPAASDES03,stopped,10.80.76.183,t2.medium,eu-west-1c,; AZ-EU-iopreview-PaaS-SG-Elasticsearch,6807,AZ-EU-iopreview-PaaS-EC2-Elasticsearch_Master_03,09/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-09bc91604d9275def,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.76.40,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-w03,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-068b64ce6d6c985b2,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.71.8,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w01,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0447e21fad6f7d614,IECDALPAASDELK02,stopped,10.80.75.104,t2.medium,eu-west-1b,; AZ-EU-iopreview-PaaS-SG-Elasticsearch,6807,AZ-EU-iopreview-PaaS-EC2-ELK_Ansible_Test_02,11/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-03f97449fa06cbe50,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.78.208,t2.medium,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test2-m02,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-01cd70a673700632c,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.68.81,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-w01,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-0a7947dacfe1db72b,IECDALPAASDES01,stopped,10.80.69.133,t2.medium,eu-west-1a,; AZ-EU-iopreview-PaaS-SG-Elasticsearch,6807,AZ-EU-iopreview-PaaS-EC2-Elasticsearch_Master_01,09/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-03a34d61f6a72a178,IECDALPAASDELK05,stopped,10.80.68.19,t2.medium,eu-west-1a,; AZ-EU-iopreview-PaaS-SG-Elasticsearch; AZ-EU-iopreview-PaaS-SG-Kibana,6807,AZ-EU-iopreview-PaaS-EC2-ELK_Ansible_Test_05,11/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-02df6db06b781fde9,,running,10.80.72.32,t2.micro,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,,ec2-cognito-test,,,,,, 
+i-0f0c981d73e67126c,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.69.234,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-m01,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0c91b84d862e02883,AZ-EU-ioprev-ec2-paas-admin,stopped,10.80.68.218,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-admin,11/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-07dc5f34d321c4333,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.68.86,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-lb1,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-03f538aa0f35f0335,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.69.170,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-m01,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-08b89311d2799c946,AZ-EU-ioprev-ec2-paas-ansible,running,10.80.68.166,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-ansible,11/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-0c393a4258148efb3,IECDALPAASDKB01,stopped,10.80.77.18,t2.medium,eu-west-1c,; AZ-EU-iopreview-PaaS-SG-Elasticsearch; AZ-EU-iopreview-PaaS-SG-Kibana,6807,AZ-EU-iopreview-PaaS-EC2-Kibana_01,09/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-0e95a121fe32d1ff0,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.75.73,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-m02,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0ace39b8540a91505,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.78.202,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-r01,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-02a009de355081ca9,VPCTesting-CC143,running,10.80.64.32,t2.small,eu-west-1a,; default,6807,VPCTesting-CC143,09/08/2018,CC143,Windows,CSIC,POC,N/A 
+i-005dfedda5be66af5,AZ-EU-ioprev-ec2-paas-test-k8s-w02,stopped,10.80.69.161,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-test-k8s-w02,11/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-005277334456961fb,AZ-EU-ioprev-ec2-paas-test-k8s-w01,stopped,10.80.68.33,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-test-k8s-w01,11/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-002bb6a0eb9a626d7,AZ-EU-ioprev-ec2-paas-k8s-stage-lb02,stopped,10.80.70.140,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s-nginx-public; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-stage-lb02,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-0a6ef6cedc5cd2feb,AZ-EU-ioprev-ec2-paas-neelam-test,stopped,10.80.69.147,t2.xlarge,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-neelam-test,29/08/2018,N/A,Linux,PaaS,Test,N/A 
+i-0287747bcad18a34d,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.70.52,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-w01,10/07/2018,N/A,Linux,CSIS,Dev,N/A 
+i-02754b929a18a99f4,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.71.168,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-m01,10/07/2018,N/A,Linux,CSIS,Dev,N/A 
+i-0bb18f2f45f8f7dbe,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.68.207,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-r01,10/07/2018,N/A,Linux,CSIS,Dev,N/A 
+i-016648dfe40eed3e4,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.74.165,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-m02,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-0586f1e1af4ed78dd,IECDALPAASDELK04,stopped,10.80.70.51,t2.medium,eu-west-1a,; AZ-EU-iopreview-PaaS-SG-Logstash,6807,AZ-EU-iopreview-PaaS-EC2-ELK_Ansible_Test_04,11/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-0163fec7579459d8e,AZ-EU-ioprev-ec2-paas-jenkins,running,10.80.70.215,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s-elb; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-jenkins,10/07/2018,N/A,Linux,CSIS,Dev,N/A 
+i-0e06f4978595661c0,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.79.44,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w03,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-03f21c22bf292a540,IECDALPAASDOKD01,stopped,10.80.70.251,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-iopreview-PaaS-EC2-ADDNODE_01,09/03/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-03d87dbc1dcfaa255,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.78.151,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-r02,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0f353747d0d780af7,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.79.193,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-m03,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-0f8da19f5bb11dd20,IECDALPAASDELK03,stopped,10.80.77.17,t2.medium,eu-west-1c,; AZ-EU-iopreview-PaaS-SG-Elasticsearch,6807,AZ-EU-iopreview-PaaS-EC2-ELK_Ansible_Test_03,11/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-095316ebf45c8ae5f,,stopped,10.80.75.94,t2.micro,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,,AZ-EU-ioprev-ec2-paas-k8s-poc-hal,,,,,, 
+i-0857a4204477d2889,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.75.103,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-w02,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-0e45a6a7aea1dadc4,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.75.39,t2.medium,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-m02,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-0dec6131702fa7be7,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.72.92,t2.medium,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-r02,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-022b3fbd95c326c89,AZ-EU-ioprev-ec2-paas-k8s-test-w09,stopped,10.80.75.114,t2.xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w09,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0ef4607904d0bfdd3,AZ-EU-ioprev-ec2-paas-k8s-test-w07,stopped,10.80.75.75,t2.xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w07,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0c8c71d0fd92dec5d,AZ-EU-ioprev-ec2-paas-k8s-test-w08,stopped,10.80.74.107,t2.xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w08,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-041345eeaafee2dd6,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.71.171,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-lb2,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0a297ce905e453382,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.75.55,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w04,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-04917470a2cff57f3,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.79.62,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-m03,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-0c05b16b568ef7b1f,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.79.15,t2.medium,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test2-m03,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-0cb93a22a21201556,IECDALPAASDLS01,stopped,10.80.68.32,t2.medium,eu-west-1a,; AZ-EU-iopreview-PaaS-SG-Logstash,6807,AZ-EU-iopreview-PaaS-EC2-Logstash_01,09/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-01f3bc7791d193b8d,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.71.209,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-lb2,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-032f1adc92641fa09,AZ-EU-ioprev-ec2-paas-test-k8s-m01,stopped,10.80.70.35,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-test-k8s-m01,11/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-08a12af1c3ed5166a,AZCentos-test,stopped,10.80.71.14,t2.micro,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6870,AZCentos-test,02/08/2018,N/A,Linux,PaaS,Test,N/A 
+i-01d9455a3c9d64080,AZ-EU-ioprev-ec2-paas-test-k8s-m02,stopped,10.80.69.81,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-test-k8s-m02,27/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-025ee3f37fac16a44,AZ-EU-ioprev-ec2-paas-test-k8s-m03,stopped,10.80.68.95,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-test-k8s-m03,27/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-0dfa95b81d1208928,AZ-EU-ioprev-ec2-paas-test-k8s-r01,stopped,10.80.70.14,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-test-k8s-r01,11/07/2018,N/A,Linux,PaaS,Test,N/A 
+i-0c9012a567aaa3436,AZ-EU-ioprev-ec2-POC-image-build,running,10.80.79.226,t2.micro,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-POC-image-build01,01/08/2018,NA,Windows 2012,Iaas,Dev,N/A 
+i-0afc5458b67ba2899,AZ-EU-ioprev-ec2-paas-k8s-test,stopped,10.80.72.97,t2.xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test-w06,07/08/2018,N/a,Linux,PaaS,test,N/A 
+i-054cc33450780911a,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.78.161,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-r02,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-0744df07974be2a11,AZ-EU-ioprev-ec2-paas-k8s-dev,stopped,10.80.73.205,t2.2xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-dev-w05,02/08/2018,N/a,Linux,PaaS,dev,N/A 
+i-004c6d5902c3f2caa,AZ-EU-ioprev-ec2-paas-k8s-dev,stopped,10.80.72.141,t2.2xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-dev-w01,02/08/2018,N/a,Linux,PaaS,dev,N/A 
+i-00d4de7abe572d913,AZ-EU-ioprev-ec2-paas-k8s-dev,stopped,10.80.74.124,t2.2xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-dev-w02,02/08/2018,N/a,Linux,PaaS,dev,N/A 
+i-026cb23b91c036470,AZ-EU-ioprev-ec2-paas-k8s-dev,stopped,10.80.74.183,t2.2xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-dev-w03,02/08/2018,N/a,Linux,PaaS,dev,N/A 
+i-07409cadf782b545c,AZ-EU-ioprev-ec2-paas-k8s-dev,stopped,10.80.73.208,t2.2xlarge,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-dev-w04,02/08/2018,N/a,Linux,PaaS,dev,N/A 
+i-0d69d2dda35c03e1b,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.72.127,t2.large,eu-west-1b,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-r01,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-0f5c044b966fc2f60,AZ-EU-ioprev-ec2-paas-k8s-test2-w01,stopped,10.80.77.191,t2.medium,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test2-w01,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-04b21fdaa50c84f57,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.78.213,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-w03,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-0076996f4099cd46b,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.79.208,t2.medium,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-m03,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-06a62c90c00806d6c,IECDALPAASDELK01,stopped,10.80.69.196,t2.medium,eu-west-1a,; AZ-EU-iopreview-PaaS-SG-Elasticsearch,6807,AZ-EU-iopreview-PaaS-EC2-ELK_Ansible_Test_01,11/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-0420161d17729bdc0,AZ-EU-ioprev-ec2-paas-k8s-stage-lb01,stopped,10.80.68.131,t2.medium,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s-nginx-public; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-stage-lb01,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-02996a84e6864dbf9,AZ-EU-ioprev-ec2-paas-k8s-poc,stopped,10.80.76.198,t2.large,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-poc-w05,07/08/2018,N/a,Linux,PaaS,poc,N/A 
+i-0a418625c6f333d7d,IECDALPAASDES02,stopped,10.80.74.255,t2.medium,eu-west-1b,; AZ-EU-iopreview-PaaS-SG-Elasticsearch,6807,AZ-EU-iopreview-PaaS-EC2-Elasticsearch_Master_02,09/07/2018,N/A,CentOS,CS&IS,Dev,N/A 
+i-06c15467cf30801c4,AZ-EU-ioprev-ec2-paas-k8s,stopped,10.80.79.110,t2.medium,eu-west-1c,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-ioprev-ec2-paas-k8s-test2-m01,10/07/2018,N/A,Linux,PaaS,Dev,N/A 
+i-03916f46e50bec8e1,IECDALPAASDSPIN01,running,10.80.68.27,t2.large,eu-west-1a,; AZ-EU-ioprev-SG-paas-k8s,6807,AZ-EU-iopreview-PaaS-EC2-SPINNAKER_01,10-16-2018,N/A,CentOS,CS&IS,Dev,N/A 
