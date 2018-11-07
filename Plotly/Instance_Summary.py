@@ -1,4 +1,4 @@
-#Instance Summary
+#Instance Summary Plotly
 
 import boto3
 import collections
@@ -112,10 +112,10 @@ def Instance_summary():
 				OSPlatform = instance['Tags'][temp]['Value']
 			temp += 1
 		
-		if  OSPlatform == 'Windows':
-			WindowsOS +=1
-		else:
-			OtherOS +=1
+			if  OSPlatform == 'Windows':
+				WindowsOS +=1
+			else:
+				OtherOS +=1
 
 	filepath ='C:/Users/kwfp376/Documents/Temp/Webpage/IOPreview_files/IOPreview_N.Virginia_Instance_Summary_' + date_fmt + '.csv'
 	filename ='IOPreview_N.Virginia_Instance_Summary_' + date_fmt + '.csv'
@@ -126,35 +126,23 @@ def Instance_summary():
 	csv_file.write("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s \n"% (InstanceStateOn, InstanceStateOff, us_east_1a, us_east_1b, us_east_1c, us_east_1d, WindowsOS, OtherOS, General_Purpose, Compute_Optimised, Memory_Optimized, Storage_Optimized, Accelerated_Computing, GPU_Optimized, Bare_Metal, Micro))
 	csv_file.flush()
 	
-	html_out_file = "C:/Users/kwfp376/Documents/Temp/Webpage/html/Instance_html_Summary_With_Chart.html"
+	html_out_file = "C:/Users/kwfp376/Documents/Temp/Webpage/Plotly/Instance_html_Summary_With_Plotly_Chart.html"
 	html_file_handle = open(html_out_file, "w")
 	html_file_handle.write("""<!doctype html>
 		<html>
 
 		<head>
-		<script src = "../Lib/Chart.bundle.min.js"></script>
-		<link rel = "stylesheet" href = "../Lib/bootstrap.min.css">
+			<script src="Lib\plotly-latest.min.js"></script>
+			<script src="""+"Lib\numeric.min.js"+"""></script>
 		</head>
 		
 		<body>
 		<style>
-		hr { 
-				display: block;
-				margin-top: 0.5em;
-				margin-bottom: 0.5em;
-				margin-left: auto;
-				margin-right: auto;
-				border-style: inset;
-				border-width: 2px;
-			}
+		
 		
 		</style>
 
-			<div style = "background-color:lightblue; Width:100%; Height:100%; align:center">
-				<div class="container" >
-					<canvas id="myChart" ></canvas>
-				</div>
-			</div>
+			<div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
 			<div>
 				<div>
 					<p></p>
@@ -211,96 +199,36 @@ def Instance_summary():
 
 		<script>
 
+			var data = [{
+			y: ["""+str(us_east_1a)+""","""+str(us_east_1b)+""","""+str(us_east_1c)+"""],
+			x: ['us-east-1a', 'us-east-1b', 'us-east-1c'],
+			type: 'bar'
+				}];
+				var layout = {
+							  title: 'Instance Spread',
+							  xaxis: {
+								title: 'Availability Zones',
+								titlefont: {
+								  family: 'Courier New, monospace',
+								  size: 18,
+								  color: '#7f7f7f'
+								}
+							  },
+							  yaxis: {
+								title: 'Instance Count',
+								titlefont: {
+								  family: 'Courier New, monospace',
+								  size: 18,
+								  color: '#7f7f7f'
+								}
+							  },
+								width: 500,  // or any new width
+								height: 450
+							};
 
-		var myChart = document.getElementById('myChart').getContext('2d');
-		Chart.defaults.global.defaultFontFamily = 'Lato';
-		Chart.defaults.global.defaultFontSize = '18';
-		Chart.defaults.global.defaultFontColor = '#7777';
+			Plotly.newPlot('myDiv', data, layout,{displayModeBar: false});
 
-		var Chart = new Chart(myChart,{
-			type: 'pie',
-			data: {
-				labels: ["us-east-1a", "us-east-1b", "us-east-1c"],
-				datasets: [{
-					fillColor: "#79D1CF",
-					strokeColor: "#79D1CF",
-					label: 'Instance Count',
-					data: ["""+str(us_east_1a)+""","""+str(us_east_1b)+""","""+str(us_east_1c)+"""],
-					
-					backgroundColor: [
-						'rgba(255,99,132,1)',
-						'rgba(54, 162, 235, 1)',
-						'rgba(255, 206, 86, 1)',
-						
-					],
-					borderColor: [
-						'rgba(255,99,132,1)',
-						'rgba(54, 162, 235, 1)',
-						'rgba(255, 206, 86, 1)',
-						
-					],
-					borderWidth: 2,
-					borderColor: '#777',
-					hoverBorderWidth:3,
-					hoverBorderColor: '#000'
-			
-				}]
-			},
-			options: {
-				//responsive: true,
-				//maintainAspectRatio: true,
-				//showDatapoints: true,
-				title:
-					{
-					display:true,
-					text:'Instance Spread',
-					fontSize: 25,
-					},
-				legend:
-					{
-					position: 'right',
-					labels:
-						{
-							fontColor: '#000'
-						}
-					},
-				layout:
-					{
-						padding:
-							{
-								left:0,
-								right:50,
-								bottom:0,
-								top:0
-							}
-					},
-				tooltips:
-					{
-						enabled:true,
-						bodyFontSize: 15,
-						titleFontSize:30
-						
-					},
-					
-				/*
-				scales: 
-					{
-					yAxes: [
-						{
-						gridLines: 
-							{
-								display: true
-							},
-						ticks: 
-							{
-							beginAtZero:false
-							}
-						}
-						]
-					}
-				*/
-					}
-				});
+  
 		</script>
 
 

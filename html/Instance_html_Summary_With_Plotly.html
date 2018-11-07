@@ -1,0 +1,107 @@
+<!doctype html>
+		<html>
+
+		<head>
+			<script src="C:\Users\kwfp376\Documents\Temp\Test-Web\plotly-latest.min.js"></script>
+			<script src="C:\Users\kwfp376\Documents\Temp\Test-Web\numeric.min.js"></script>
+		</head>
+		
+		<body>
+		<style>
+		
+		
+		</style>
+
+			<div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+			<div>
+				<div>
+					<p></p>
+					<p></p>
+					<hr />
+					<h2 style="text-align: center;"><strong>US Instance details</strong></h2>
+					<hr />
+					<p></p>
+					<table border="0" style="height: 129px; width: 100.983%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto; float: center" height="97">
+					<tbody>
+					<tr style="height: 21px;">
+					<td style="width: 21.6946%; height: 21px;"><strong>AZ1</strong> (us-east-1a): </td>
+					<td style="width: 5%; height: 21px;"><strong style = "color:#06F968;">1</strong></td>
+					<td style="width: 20.7169%; height: 21px;"><strong>AZ2</strong> (us-east-1b):</td>
+					<td style="width: 5%; height: 21px;"> <strong style = "color:#06F968;">14</strong></td>
+					<td style="width: 17.365%; height: 21px;"><strong>AZ3</strong> (us-east-1c):</td>
+					<td style="width: 5%; height: 21px;"> <strong style = "color:#06F968;">5</strong></td>
+					</tr>
+					<tr style="height: 21px;">
+					<td style="width: 21.6946%; height: 21px;">Windows Instances:</td>
+					<td style="width: 11.6388%; height: 21px;"> <strong style = "color:#06F968;">10</strong></td>
+					<td style="width: 20.7169%; height: 21px;">Other OS Instances: </td>
+					<td style="width: 12.6165%; height: 21px;"><strong style = "color:#06F968;">26</strong></td>
+					<td style="width: 17.365%; height: 21px;">General_Purpose: </td>
+					<td style="width: 15.9684%; height: 21px;"><strong style = "color:#06F968;">1</strong></td>
+					</tr>
+					<tr style="height: 21px;">
+					<td style="width: 21.6946%; height: 21px;">Compute_Optimised: </td>
+					<td style="width: 11.6388%; height: 21px;"><strong style = "color:#06F968;">0</strong></td>
+					<td style="width: 20.7169%; height: 21px;">Memory_Optimized: </td>
+					<td style="width: 12.6165%; height: 21px;"><strong style = "color:#06F968;">0</strong></td>
+					<td style="width: 17.365%; height: 21px;">Storage_Optimized: </td>
+					<td style="width: 15.9684%; height: 21px;"><strong style = "color:#06F968;">0</strong></td>
+					</tr>
+					<tr style="height: 20px;">
+					<td style="width: 21.6946%; height: 20px;">Accelerated_Computing: </td>
+					<td style="width: 11.6388%; height: 20px;"><strong style = "color:#06F968;">0</strong></td>
+					<td style="width: 20.7169%; height: 20px;">GPU_Optimized: </td>
+					<td style="width: 12.6165%; height: 20px;"><strong style = "color:#06F968;">0</strong></td>
+					<td style="width: 17.365%; height: 20px;">Bare_Metal: </td>
+					<td style="width: 15.9684%; height: 20px;"><strong style = "color:#06F968;">0</strong></td>
+					</tr>
+					<tr style="height: 20px;">
+					<td style="width: 21.6946%; height: 20px;">Micro: </td>
+					<td style="width: 11.6388%; height: 20px;"><strong style = "color:#06F968;">0</strong></td>
+					</tr>
+					
+					</tbody>
+					</table>
+					
+				</div>
+			</div>
+
+
+		<script>
+
+			var data = [{
+			y: [1, 14, 5],
+			x: ['us-east-1a', 'us-east-1b', 'us-east-1c'],
+			type: 'bar'
+				}];
+				var layout = {
+							  title: 'Instance Spread',
+							  xaxis: {
+								title: 'Availability Zones',
+								titlefont: {
+								  family: 'Courier New, monospace',
+								  size: 18,
+								  color: '#7f7f7f'
+								}
+							  },
+							  yaxis: {
+								title: 'Instance Count',
+								titlefont: {
+								  family: 'Courier New, monospace',
+								  size: 18,
+								  color: '#7f7f7f'
+								}
+							  },
+								width: 500,  // or any new width
+								height: 450
+							};
+
+			Plotly.newPlot('myDiv', data, layout,{displayModeBar: false});
+
+  </script>
+		</script>
+
+
+		</body>
+
+		</html>

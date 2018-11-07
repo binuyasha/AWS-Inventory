@@ -1,0 +1,290 @@
+<!doctype html>
+		<html>
+
+		<head>
+			<script src="Lib\plotly-latest.min.js"></script>
+			<script src="Lib\numeric.min.js"></script>
+		</head>
+		
+		<body>
+		<style>
+		
+		
+		</style>
+			
+			<div style="width: 100%; overflow: hidden;">
+				<table border="0" style="border-collapse: collapse; width: 100%;border-style: hidden;">
+				<tbody>
+				<tr>
+				<td style="width: 33.3333%;text-align: center;"><strong>US</strong></td>
+				<td style="width: 33.3333%;text-align: center;"><strong>Ireland </strong></td>
+				<td style="width: 33.3333%;text-align: center;"><strong>Singapore</strong> </td>
+				</tr>
+				<tr>
+				<td style="width: 33.3333%;"> <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div></td>
+				<td style="width: 33.3333%;"><div id="myDiv1"><!-- Plotly chart will be drawn inside this DIV --></div></td>
+				<td style="width: 33.3333%;"><div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div></td>
+				</tr>
+				</tr>
+<tr style="height: 20px;">
+<td style="width: 33.3333%; height: 20px;">
+<div id="myDiv"></div>
+</td>
+<td style="width: 33.3333%; height: 20px;">
+<div id="myDiv1"></div>
+</td>
+<td style="width: 33.3333%; height: 20px;">
+<div id="myDiv2"></div>
+</td>
+</tr>
+<tr style="height: 17px;">
+<td style="width: 33.3333%; height: 25px; text-align: center;">
+<div id="myDiv"><hr /><strong><strong>US</strong></strong><hr /></div>
+</td>
+<td style="width: 33.3333%; height: 25px; text-align: center;">
+<div id="myDiv1"><hr /><strong><strong>Ireland</strong></strong><hr /></div>
+</td>
+<td style="width: 33.3333%; height: 25px; text-align: center;">
+<div id="myDiv2"><hr /><strong><strong>Singapore</strong></strong><hr /></div>
+</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 33.3333%; height: 20px;">
+<div id="myDiv">
+<table border="0" style="height: 264px; width: 0%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto;" height="97">
+<tbody>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 22px;"><strong>AZ1</strong> (us-east-1a):</td>
+<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">1</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;"><strong>AZ2</strong> (us-east-1b):</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">12</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;"><strong>AZ3</strong> (us-east-1c):</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">5</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 21px;">Windows Instances:</td>
+<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">10</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Other OS Instances:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">24</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">General_Purpose:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">1</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 21px;">Compute_Optimised:</td>
+<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Memory_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Storage_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Accelerated_Computing:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Micro:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">GPU_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Bare_Metal:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<table border="0" style="height: 264px; width: 0%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto;" height="97">
+<tbody>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 22px;"><strong>AZ1</strong> (us-east-1a):</td>
+<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">1</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;"><strong>AZ2</strong> (us-east-1b):</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">12</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;"><strong>AZ3</strong> (us-east-1c):</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">5</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 21px;">Windows Instances:</td>
+<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">10</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Other OS Instances:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">24</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">General_Purpose:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">1</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 21px;">Compute_Optimised:</td>
+<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Memory_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Storage_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Accelerated_Computing:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Micro:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">GPU_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Bare_Metal:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" style="height: 264px; width: 0%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto;" height="97">
+<tbody>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 22px;"><strong>AZ1</strong> (us-east-1a):</td>
+<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">1</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;"><strong>AZ2</strong> (us-east-1b):</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">12</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;"><strong>AZ3</strong> (us-east-1c):</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">5</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 21px;">Windows Instances:</td>
+<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">10</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Other OS Instances:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">24</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">General_Purpose:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">1</strong></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 21.6946%; height: 21px;">Compute_Optimised:</td>
+<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Memory_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Storage_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Accelerated_Computing:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Micro:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">GPU_Optimized:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 21.6946%; height: 20px;">Bare_Metal:</td>
+<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">
+<div id="myDiv"><strong>&nbsp;</strong></div>
+</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+		<script>
+
+			var data1 = [{
+			y: [1,20,5],
+			x: ['us-east-1a', 'us-east-1b', 'us-east-1c'],
+			type: 'bar'
+				}];
+			var data2 = [{
+			y: [4,16,18],
+			x: ['eu-west-1a', 'eu-west-1b', 'eu-west-1c'],
+			type: 'bar'
+				}];
+			var data3 = [{
+			y: [6,12,8],
+			x: ['us-east-1a', 'us-east-1b', 'us-east-1c'],
+			type: 'bar'
+				}];
+				var layout = {
+							  //title: 'Instance Spread',
+							  xaxis: {
+								title: 'Availability Zones',
+								titlefont: {
+								  family: 'Courier New, monospace',
+								  size: 18,
+								  color: '#7f7f7f'
+								}
+							  },
+							  yaxis: {
+								title: 'Instance Count',
+								titlefont: {
+								  family: 'Courier New, monospace',
+								  size: 18,
+								  color: '#7f7f7f'
+								}
+							  },
+								width: 450,  // or any new width
+								height: 450
+							};
+				
+
+			Plotly.newPlot('myDiv', data1, layout,{displayModeBar: false});
+			Plotly.newPlot('myDiv1', data2, layout,{displayModeBar: false});
+			Plotly.newPlot('myDiv2', data3, layout,{displayModeBar: false});
+
+  
+		</script>
+
+
+		</body>
+
+		</html>

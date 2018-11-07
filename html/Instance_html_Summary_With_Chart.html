@@ -1,0 +1,179 @@
+<!doctype html>
+		<html>
+
+		<head>
+		<script src = "../Lib/Chart.bundle.min.js"></script>
+		<link rel = "stylesheet" href = "../Lib/bootstrap.min.css">
+		</head>
+		
+		<body>
+		<style>
+		hr { 
+				display: block;
+				margin-top: 0.5em;
+				margin-bottom: 0.5em;
+				margin-left: auto;
+				margin-right: auto;
+				border-style: inset;
+				border-width: 2px;
+			}
+		
+		</style>
+
+			<div style = "background-color:lightblue; Width:60%; Height:100%;">
+				
+					<canvas id="myChart" style = "background-color:lightblue; align:center" ></canvas>
+				
+			</div>
+			<div>
+				<div>
+					<p></p>
+					<p></p>
+					<hr />
+					<h2 style="text-align: center;"><strong>US Instance details</strong></h2>
+					<hr />
+					<p></p>
+					<table border="0" style="height: 129px; width: 100.983%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto; float: center" height="97">
+					<tbody>
+					<tr style="height: 21px;">
+					<td style="width: 21.6946%; height: 21px;"><strong>AZ1</strong> (us-east-1a): </td>
+					<td style="width: 5%; height: 21px;"><strong style = "color:#06F968;">1</strong></td>
+					<td style="width: 20.7169%; height: 21px;"><strong>AZ2</strong> (us-east-1b):</td>
+					<td style="width: 5%; height: 21px;"> <strong style = "color:#06F968;">14</strong></td>
+					<td style="width: 17.365%; height: 21px;"><strong>AZ3</strong> (us-east-1c):</td>
+					<td style="width: 5%; height: 21px;"> <strong style = "color:#06F968;">5</strong></td>
+					</tr>
+					<tr style="height: 21px;">
+					<td style="width: 21.6946%; height: 21px;">Windows Instances:</td>
+					<td style="width: 11.6388%; height: 21px;"> <strong style = "color:#06F968;">10</strong></td>
+					<td style="width: 20.7169%; height: 21px;">Other OS Instances: </td>
+					<td style="width: 12.6165%; height: 21px;"><strong style = "color:#06F968;">26</strong></td>
+					<td style="width: 17.365%; height: 21px;">General_Purpose: </td>
+					<td style="width: 15.9684%; height: 21px;"><strong style = "color:#06F968;">1</strong></td>
+					</tr>
+					<tr style="height: 21px;">
+					<td style="width: 21.6946%; height: 21px;">Compute_Optimised: </td>
+					<td style="width: 11.6388%; height: 21px;"><strong style = "color:#06F968;">0</strong></td>
+					<td style="width: 20.7169%; height: 21px;">Memory_Optimized: </td>
+					<td style="width: 12.6165%; height: 21px;"><strong style = "color:#06F968;">0</strong></td>
+					<td style="width: 17.365%; height: 21px;">Storage_Optimized: </td>
+					<td style="width: 15.9684%; height: 21px;"><strong style = "color:#06F968;">0</strong></td>
+					</tr>
+					<tr style="height: 20px;">
+					<td style="width: 21.6946%; height: 20px;">Accelerated_Computing: </td>
+					<td style="width: 11.6388%; height: 20px;"><strong style = "color:#06F968;">0</strong></td>
+					<td style="width: 20.7169%; height: 20px;">GPU_Optimized: </td>
+					<td style="width: 12.6165%; height: 20px;"><strong style = "color:#06F968;">0</strong></td>
+					<td style="width: 17.365%; height: 20px;">Bare_Metal: </td>
+					<td style="width: 15.9684%; height: 20px;"><strong style = "color:#06F968;">0</strong></td>
+					</tr>
+					<tr style="height: 20px;">
+					<td style="width: 21.6946%; height: 20px;">Micro: </td>
+					<td style="width: 11.6388%; height: 20px;"><strong style = "color:#06F968;">0</strong></td>
+					</tr>
+					
+					</tbody>
+					</table>
+					
+				</div>
+			</div>
+
+
+		<script>
+
+
+		var myChart = document.getElementById('myChart').getContext('2d');
+		Chart.defaults.global.defaultFontFamily = 'Lato';
+		Chart.defaults.global.defaultFontSize = '18';
+		Chart.defaults.global.defaultFontColor = '#7777';
+
+		var Chart = new Chart(myChart,{
+			type: 'pie',
+			data: {
+				labels: ["us-east-1a", "us-east-1b", "us-east-1c"],
+				datasets: [{
+					fillColor: "#79D1CF",
+					strokeColor: "#79D1CF",
+					label: 'Instance Count',
+					data: [1,14,5],
+					
+					backgroundColor: [
+						'rgba(255,99,132,1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(255, 206, 86, 1)',
+						
+					],
+					borderColor: [
+						'rgba(255,99,132,1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(255, 206, 86, 1)',
+						
+					],
+					borderWidth: 2,
+					borderColor: '#777',
+					hoverBorderWidth:3,
+					hoverBorderColor: '#000'
+			
+				}]
+			},
+			options: {
+				//responsive: true,
+				//maintainAspectRatio: true,
+				//showDatapoints: true,
+				title:
+					{
+					display:true,
+					text:'Instance Spread',
+					fontSize: 25,
+					},
+				legend:
+					{
+					position: 'right',
+					labels:
+						{
+							fontColor: '#000'
+						}
+					},
+				layout:
+					{
+						padding:
+							{
+								left:0,
+								right:50,
+								bottom:0,
+								top:0
+							}
+					},
+				tooltips:
+					{
+						enabled:true,
+						bodyFontSize: 15,
+						titleFontSize:30
+						
+					},
+					
+				/*
+				scales: 
+					{
+					yAxes: [
+						{
+						gridLines: 
+							{
+								display: true
+							},
+						ticks: 
+							{
+							beginAtZero:false
+							}
+						}
+						]
+					}
+				*/
+					}
+				});
+		</script>
+
+
+		</body>
+
+		</html>
