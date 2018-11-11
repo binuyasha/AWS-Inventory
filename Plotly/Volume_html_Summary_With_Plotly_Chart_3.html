@@ -54,55 +54,47 @@ umeric.min.js></script>
 				<table border="0" style="height: 264px; width: 0%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto;" height="97">
 				<tbody>
 				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 22px;"><strong>AZ1</strong>(us-east-1b):</td>
-				<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">12</strong></td>
+				<td style="width: 21.6946%; height: 22px;"><strong>Provisioned_IOPS_SSD</strong>:</td>
+				<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">4</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;"><strong>AZ2</strong> (us-east-1c):</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">6</strong></td>
+				<td style="width: 21.6946%; height: 20px;"><strong>General Purpose SSD</strong>:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">80</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;"><strong>AZ3</strong> (us-east-1d):</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">14</strong></td>
+				<td style="width: 21.6946%; height: 20px;"><strong>Throughput_Optimized_HDD</strong>:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 21px;">Windows Instances:</td>
-				<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">9</strong></td>
-				</tr>
-				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Other OS Instances:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">25</strong></td>
-				</tr>
-				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">General_Purpose:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">34</strong></td>
-				</tr>
-				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 21px;">Compute_Optimised:</td>
+				<td style="width: 21.6946%; height: 21px;">Cold HDD:</td>
 				<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Memory_Optimized:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">Attached Volumes:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">45</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Storage_Optimized:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">Unattached Volumes:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">39</strong></td>
+				</tr>
+				<tr style="height: 21px;">
+				<td style="width: 21.6946%; height: 21px;">Volumes Encrypted:</td>
+				<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Accelerated_Computing:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">Volumes Not Encrypted:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">84</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Micro:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">100GB to 500GB:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">68</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">GPU_Optimized:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">500GB to 1TB:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">5</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Bare_Metal:</td>
+				<td style="width: 21.6946%; height: 20px;">More than 1TB:</td>
 				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				</tbody>
@@ -111,63 +103,55 @@ umeric.min.js></script>
 						<script>
 
 									var usdata = [{
-									y: [12,6,14],
-									x: ['AZ1', 'AZ2', 'AZ3'],
+									y: [68,5,0],
+									x: ['0GB to 100GB', '100GB to 500GB', 'More than 500GB'],
 									type: 'bar'
 										}];
 						</script>
 				<td><table border="0" style="height: 264px; width: 0%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto;" height="97">
 				<tbody>
 				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 22px;"><strong>AZ1</strong>(eu-west-1a):</td>
-				<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">33</strong></td>
+				<td style="width: 21.6946%; height: 22px;"><strong>Provisioned_IOPS_SSD</strong>:</td>
+				<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;"><strong>AZ2</strong> (eu-west-1b):</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">21</strong></td>
+				<td style="width: 21.6946%; height: 20px;"><strong>General Purpose SSD</strong>:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">473</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;"><strong>AZ3</strong> (eu-west-1c):</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">15</strong></td>
+				<td style="width: 21.6946%; height: 20px;"><strong>Throughput_Optimized_HDD</strong>:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 21px;">Windows Instances:</td>
-				<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">1</strong></td>
-				</tr>
-				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Other OS Instances:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">68</strong></td>
-				</tr>
-				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">General_Purpose:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">69</strong></td>
-				</tr>
-				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 21px;">Compute_Optimised:</td>
+				<td style="width: 21.6946%; height: 21px;">Cold HDD:</td>
 				<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Memory_Optimized:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">Attached Volumes:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">73</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Storage_Optimized:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">Unattached Volumes:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">400</strong></td>
+				</tr>
+				<tr style="height: 21px;">
+				<td style="width: 21.6946%; height: 21px;">Volumes Encrypted:</td>
+				<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Accelerated_Computing:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">Volumes Not Encrypted:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">473</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Micro:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">100GB to 500GB:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">465</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">GPU_Optimized:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
+				<td style="width: 21.6946%; height: 20px;">500GB to 1TB:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">3</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Bare_Metal:</td>
+				<td style="width: 21.6946%; height: 20px;">More than 1TB:</td>
 				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				</tbody>
@@ -176,63 +160,55 @@ umeric.min.js></script>
 						<script>
 
 									var eudata = [{
-									y: [33,21,15],
-									x: ['AZ1', 'AZ2', 'AZ3'],
+									y: [465,3,0],
+									x: ['0GB to 100GB', '100GB to 500GB', 'More than 500GB'],
 									type: 'bar'
 										}];
 						</script>
 				<td><table border="0" style="height: 264px; width: 0%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto;" height="97">
 				<tbody>
 				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 22px;"><strong>AZ1</strong>(ap-southeast-1a):</td>
-				<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">2</strong></td>
+				<td style="width: 21.6946%; height: 22px;"><strong>Provisioned_IOPS_SSD</strong>:</td>
+				<td style="width: 5%; height: 22px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;"><strong>AZ2</strong> (ap-southeast-1b):</td>
+				<td style="width: 21.6946%; height: 20px;"><strong>General Purpose SSD</strong>:</td>
 				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;"><strong>AZ3</strong> (NA):</td>
+				<td style="width: 21.6946%; height: 20px;"><strong>Throughput_Optimized_HDD</strong>:</td>
 				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 21px;">Windows Instances:</td>
+				<td style="width: 21.6946%; height: 21px;">Cold HDD:</td>
 				<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Other OS Instances:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">2</strong></td>
+				<td style="width: 21.6946%; height: 20px;">Attached Volumes:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">General_Purpose:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">2</strong></td>
+				<td style="width: 21.6946%; height: 20px;">Unattached Volumes:</td>
+				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 21px;">
-				<td style="width: 21.6946%; height: 21px;">Compute_Optimised:</td>
+				<td style="width: 21.6946%; height: 21px;">Volumes Encrypted:</td>
 				<td style="width: 5%; height: 21px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Memory_Optimized:</td>
+				<td style="width: 21.6946%; height: 20px;">Volumes Not Encrypted:</td>
 				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Storage_Optimized:</td>
+				<td style="width: 21.6946%; height: 20px;">100GB to 500GB:</td>
 				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Accelerated_Computing:</td>
+				<td style="width: 21.6946%; height: 20px;">500GB to 1TB:</td>
 				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Micro:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
-				</tr>
-				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">GPU_Optimized:</td>
-				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
-				</tr>
-				<tr style="height: 20px;">
-				<td style="width: 21.6946%; height: 20px;">Bare_Metal:</td>
+				<td style="width: 21.6946%; height: 20px;">More than 1TB:</td>
 				<td style="width: 5%; height: 20px;"><strong style="color: #06f968;">0</strong></td>
 				</tr>
 				</tbody>
@@ -241,8 +217,8 @@ umeric.min.js></script>
 						<script>
 
 									var sgdata = [{
-									y: [2,0,0],
-									x: ['AZ1', 'AZ2', 'AZ3'],
+									y: [0,0,0],
+									x: ['0GB to 100GB', '100GB to 500GB', 'More than 500GB'],
 									type: 'bar'
 										}];
 						</script>
@@ -253,9 +229,9 @@ umeric.min.js></script>
 		</div>
 	<script>
 		var layout = {
-										  //title: 'Instance Spread',
+										  //title: 'Volume Size',
 										  xaxis: {
-											title: 'Availability Zones',
+											title: 'Volume Size',
 											titlefont: {
 											  family: 'Courier New, monospace',
 											  size: 18,
@@ -263,7 +239,7 @@ umeric.min.js></script>
 											}
 										  },
 										  yaxis: {
-											title: 'Instance Count',
+											title: 'Volume Count',
 											titlefont: {
 											  family: 'Courier New, monospace',
 											  size: 18,
