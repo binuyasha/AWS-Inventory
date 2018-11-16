@@ -1,0 +1,173 @@
+<!doctype html>
+		<html>
+
+		<head>
+			<script src="Lib\plotly-latest.min.js"></script>
+			<script src=Lib
+umeric.min.js></script>
+		</head>
+		
+		<body>
+		<style>
+		
+		
+		</style>
+			
+			<div style="width: 100%; overflow: hidden;background-color:lightblue;">
+				<div id="myDiv"style="float: left; height: 500px;width: 50%;"><!-- Plotly chart will be drawn inside this DIV --></div>
+				<div id="myDiv1"style="float: right; height: 500px;width: 50%;"><!-- Plotly chart will be drawn inside this DIV --></div>
+			</div>
+<div>			
+<table  width="100%",>
+<tbody>
+<tr>
+<hr style="height:2px;border:none;color:#333;background-color:#333;"/>
+
+<td width="64">&nbsp;</td>
+<td style="text-align: center;" width="194"><strong>US</strong></td>
+<td width="26"><strong>&nbsp;</strong></td>
+<td width="26"><strong>&nbsp;</strong></td>
+<td style="text-align: center;" width="181"><strong>Ireland</strong></td>
+<td width="27"><strong>&nbsp;</strong></td>
+<td width="27"><strong>&nbsp;</strong></td>
+<td style="text-align: center;" width="181"><strong>Singapore</strong></td>
+<td width="30">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="2"><strong>Snapshots</strong></td>
+<td width="194">Snapshots_registered_to_AMI:</td>
+<td width="26">0</td>
+<td width="26">&nbsp;</td>
+<td width="181">Snapshots_registered_to_AMI:</td>
+<td width="27">0</td>
+<td width="27">&nbsp;</td>
+<td width="181">Snapshots_registered_to_AMI:</td>
+<td width="30">0</td>
+</tr>
+<tr>
+<td width="194">Total Snapshots:</td>
+<td width="26">56</td>
+<td width="26">&nbsp;</td>
+<td width="181">Total Snapshots:</td>
+<td width="27">35</td>
+<td width="27">&nbsp;</td>
+<td width="181">Total Snapshots:</td>
+<td width="30">2</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="4"><strong>AMI</strong></td>
+<td width="194">Windows_OS_AMI:</td>
+<td width="26">9</td>
+<td width="26">&nbsp;</td>
+<td width="181">Windows_OS_AMI:</td>
+<td width="27">13</td>
+<td width="27">&nbsp;</td>
+<td width="181">Windows_OS_AMI:</td>
+<td width="30">2</td>
+</tr>
+<tr>
+<td width="194">Other_OS_AMI:</td>
+<td width="26">14</td>
+<td width="26">&nbsp;</td>
+<td width="181">Other_OS_AMI:</td>
+<td width="27">21</td>
+<td width="27">&nbsp;</td>
+<td width="181">Other_OS_AMI:</td>
+<td width="30">2</td>
+</tr>
+<tr>
+<td width="194">CPM Backup AMI:</td>
+<td width="26">0</td>
+<td width="26">&nbsp;</td>
+<td width="181">CPM Backup AMI:</td>
+<td width="27">1</td>
+<td width="27">&nbsp;</td>
+<td width="181">CPM Backup AMI:</td>
+<td width="30">0</td>
+</tr>
+<tr>
+<td width="194">Total AMI:</td>
+<td width="26">14</td>
+<td width="26">&nbsp;</td>
+<td width="181">Total AMI:</td>
+<td width="27">21</td>
+<td width="27">&nbsp;</td>
+<td width="181">Total AMI:</td>
+<td width="30">2</td>
+</tr>
+</tbody>
+</table> 
+				
+				
+				
+				
+						<script>
+
+									var Snapshot_Data = [{
+									values: [56,35,2],
+									labels: ['US', 'Ireland', 'Singapore'],
+									type: 'pie'
+										}];
+									
+									var AMI_Data = [{
+									values: [14,21,2],
+									labels: ['US', 'Ireland', 'Singapore'],
+									type: 'pie'
+										}];
+						</script>
+				
+		</tr>
+		</tbody>
+		</table>
+		</div>
+	<script>
+		var layout = {
+										  title: 'Snapshot Spread',
+										  /*xaxis: {
+											title: 'Regions',
+											titlefont: {
+											  family: 'Courier New, monospace',
+											  size: 18,
+											  color: '#7f7f7f'
+											}
+										  },
+										  yaxis: {
+											title: 'Count',
+											titlefont: {
+											  family: 'Courier New, monospace',
+											  size: 18,
+											  color: '#7f7f7f'
+											}
+										  },
+										  */
+											width: 550,  // or any new width
+											height: 550,
+											paper_bgcolor: 'rgba(0,0,0,0)',
+											plot_bgcolor: 'rgba(0,0,0,0)'
+											
+										};
+				
+		var layout1 = {
+										  title: 'AMI Spread',
+										 
+											width: 550,  // or any new width
+											height: 550,
+											paper_bgcolor: 'rgba(0,0,0,0)',
+											plot_bgcolor: 'rgba(0,0,0,0)'
+											
+										};						
+
+							Plotly.newPlot('myDiv', Snapshot_Data, layout,{displayModeBar: false});
+							Plotly.newPlot('myDiv1', AMI_Data, layout1,{displayModeBar: false});
+							
+
+				  
+						</script>
+
+
+						</body>
+
+						</html>

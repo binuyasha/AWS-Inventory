@@ -11,7 +11,7 @@ regions=['us-east-1', 'eu-west-1', 'ap-southeast-1']
 account = 'IOPreview'
 html_out_file = "Instance_html_Summary_With_Plotly_Chart_3.html"
 
-
+s3 = boto3.resource('s3')
 
 def Write_html_headder():
 	
@@ -235,7 +235,7 @@ def Instance_summary(reg):
 		else:
 			InstanceStateOff +=1
 		InstanceType = instance['InstanceType']
-		print(InstanceType)
+		
 		if (InstanceType in General_Purpose_List):
 			General_Purpose = General_Purpose + 1
 			
@@ -284,18 +284,17 @@ def Instance_summary(reg):
 			WindowsOS +=1
 		else:
 			OtherOS +=1
-	print(General_Purpose)
-	print(Compute_Optimised)
-	print(Storage_Optimized)
-	print(Micro)
+	
 	filepath ='IOPreview_'+reg+'_Instance_Summary_' + date_fmt + '.csv'
-	filename ='IOPreview_'+reg+'_Instance_Summary_' + date_fmt + '.csv'
+	filename ='CSV/IOPreview_'+reg+'_Instance_Summary_' + date_fmt + '.csv'
 
 	csv_file = open(filepath,'w+')
 	csv_file.write("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s \n"%("Region","InstanceStateOn"," InstanceStateOff","az1_count"," az2_count"," az3_count"," WindowsOS"," OtherOS"," General_Purpose"," Compute_Optimised"," Memory_Optimized"," Storage_Optimized"," Accelerated_Computing"," GPU_Optimized"," Bare_Metal"," Micro"))
 
 	csv_file.write("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s \n"% (reg,InstanceStateOn, InstanceStateOff, az1_count, az2_count, az3_count, WindowsOS, OtherOS, General_Purpose, Compute_Optimised, Memory_Optimized, Storage_Optimized, Accelerated_Computing, GPU_Optimized, Bare_Metal, Micro))
 	csv_file.flush()
+	
+	s3.Object('az-aws-inventory-v2.0', filename).put(ACL='public-read', Body=open(filepath, 'rb'))
 	
 	return reg,InstanceStateOn, InstanceStateOff, az1_count, az2_count, az3_count, WindowsOS, OtherOS, General_Purpose, Compute_Optimised, Memory_Optimized, Storage_Optimized, Accelerated_Computing, GPU_Optimized, Bare_Metal, Micro;
 	
@@ -342,7 +341,11 @@ def Write_html_footer():
 						</body>
 
 						</html>""")
+	
+	
 	html_file_handle.close()
+	
+	s3.Object('az-aws-inventory-v2.0', html_out_file).put(ACL='public-read', Body=open(html_out_file, 'rb'), ContentType = "text/html")
 	
 	
 
